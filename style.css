@@ -7,6 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-image: url(imagens/estacao-de-detalhamento-de-lavagem-de-carro.jpg);
+}
 section{
     position: relative;
     width: 100%;
@@ -15,7 +18,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    
 }
 
 header{
