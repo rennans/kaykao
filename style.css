@@ -8,7 +8,9 @@
 }
 
 body{
-    background-image: url(imagens/estacao-de-detalhamento-de-lavagem-de-carro.jpg);
+    background-image: url(imagens/sombreado.png);
+    width: 100%;
+    height: 100%;
 }
 section{
     position: relative;
@@ -70,27 +72,41 @@ header ul li a{
 }
 
 .content .textBox h2{
-    color: #333;
+    color: #ffffff;
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
 }
 
-.content .textBox h2 span{
-    color: #017143;
-    font-size: 1.2em;
+.content .textBox h2 strong{
+    color: #3FAB46;
+    font-size: 1.1em;
     font-weight: 900;
 }
 
+/*TEXTINHO PEQUENO */
 .content .textBox p{
-    color: #333;
+    color: #ffffff;
 }
 
-.content .textBox a{
+.botao1{
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: #017143;
+    background: #3FAB46;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.botao2{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #3FAB46;
     color: #fff;
     border-radius: 40px;
     font-weight: 500;
@@ -157,16 +173,6 @@ header ul li a{
 }
 
 
-.circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #017143;
-    clip-path: circle(600px at right 800px);
-
-}
 @media (max-width:991px)
 {
     header
