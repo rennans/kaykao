@@ -11,8 +11,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;    
+     
   overflow: auto;
 }
 
@@ -22,11 +21,13 @@ body{
     background-size: cover;      /* Estica a imagem para cobrir tudo */
     background-position: top; /* Mantém o foco no meio */
     background-attachment: fixed; /* Opcional: a imagem não sobe quando você rola a página */
-    min-height: 100vh;
+    
+    display: block;
 }
 
 header{
     margin: 30px;
+    
 }
 
 .logo{
@@ -43,6 +44,10 @@ header{
 .textBox{
     color: white;
     font-weight: 300;
+    justify-content: center;
+    display: block;
+    position: absolute;
+    top: 40%;
 }
 
 .textBox strong{
